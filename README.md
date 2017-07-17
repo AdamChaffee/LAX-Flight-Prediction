@@ -1,6 +1,6 @@
 # LAX-Flight-Prediction
 
-##Utilizing feature engineering and a suite of machine learning techniques to classify flights as on-time or delayed
+*Utilizing feature engineering and a suite of machine learning techniques to classify flights as on-time or delayed*
 
 If you have ever visited Google Flights and made a flight plan, you may have noticed that Google will warn you if a flight is frequently delayed. Using public data from the Bureau of Transportation Statistics, a model was trained to best replicate this process in R. This was  a collaborative effort at UCLA with fellow students Alex Krebs and Echo Wang.
 
