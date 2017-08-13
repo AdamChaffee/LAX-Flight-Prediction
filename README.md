@@ -12,5 +12,5 @@ Initial models used included GLM with logit, XGBoost, SVM, Random Forest, and a 
 4. Exploring algorithms for prediction of exact delay/early times instead of classification and developing error bounds
 5. Replicating the coding in Python for comparison of lines used/efficiency
 6. Exploration of speed improvements using tensorFlow, expansion to many airports instead of just LAX
-???
-Profit
+7. ???
+8. Profit
