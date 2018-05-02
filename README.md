@@ -8,9 +8,9 @@ Initial models used included GLM with logit, XGBoost, SVM, Random Forest, and a 
 
 1. Creating a feature that catalogs percentage of major delays by flight number (done, added to cleaned file)
 2. Exploring if results improve by using testing data that is more recent in time to the training data
-3. Including additional algorithms such as neural network
-4. Exploring algorithms for prediction of exact delay/early times instead of classification and developing error bounds
-5. Replicating the coding in Python for comparison of lines used/efficiency
-6. Exploration of speed improvements using tensorFlow, expansion to many airports instead of just LAX
-7. ???
-8. Profit
+3. Exploring if results improve by adding weather data
+4. Including additional algorithms such as neural network
+5. Exploring algorithms for prediction of exact delay/early times instead of classification and developing error bounds
+6. Replicating the coding in Python for comparison of lines used/efficiency
+7. Exploration of speed improvements or an app using GCP or AWS
+8. Expansion to many airports instead of just LAX
