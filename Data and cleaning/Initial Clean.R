@@ -4,16 +4,12 @@
 ## Set working directory
 setwd("C:/Users/achaf/OneDrive/Documents/DS Projects/LAX")
 
-
 #############################
 ## Packages needed
 #############################
-## Data observations/visualization
-library(mosaic)
-
 ## Cleaning
 library(lubridate)
-library(dplyr) ## NEEDED
+library(dplyr)
 library(plyr)
 
 ####################################
@@ -37,13 +33,6 @@ names(flights)
 keepers <- c("FL_DATE","flight_ID","DEST","CRS_DEP_TIME","CRS_ARR_TIME","DISTANCE","DISTANCE_GROUP", "ARR_DELAY")
 
 flights<-flights[,keepers]
-
-## Alternative method using select() function
-#flight_preview = select(flight_preview, -c(ORIGIN_CITY_NAME, ORIGIN_AIRPORT_ID, ORIGIN_STATE_NM))
-#flights = select(flights, -c(ORIGIN_CITY_NAME, TAIL_NUM, ORIGIN_AIRPORT_ID, ORIGIN_AIRPORT_SEQ_ID,
-#                             ORIGIN_STATE_NM, DEST_CITY_NAME, DEST_STATE_NM, DEST_AIRPORT_ID,
-#                             DEST_AIRPORT_SEQ_ID, DEP_TIME, DEP_DELAY_GROUP))
-
 
 ## Convert date to R's Date format
 flights$FL_DATE = as.Date(flights$FL_DATE,format = "%Y-%m-%d")
